@@ -221,12 +221,12 @@ The following table lists assembler directives:
 |.8byte       | expression [, expression]*     | 64-bit comma separated words
 |.dword       | expression [, expression]*     | 64-bit comma separated words
 |.quad        | expression [, expression]*     | 64-bit comma separated words
+|.qword       | expression [, expression]*     | 128-bit comma separated words
 |.float       | expression [, expression]*     | 32-bit floating point values, see <<fp-literal, Floating-point literals>> for the value format.
 |.double      | expression [, expression]*     | 64-bit floating point values, see <<fp-literal, Floating-point literals>> for the value format.
 |.quad        | expression [, expression]*     | 128-bit floating point values, see <<fp-literal, Floating-point literals>> for the value format.
 |.dtprelword  | expression [, expression]*     | 32-bit thread local word
 |.dtpreldword | expression [, expression]*     | 64-bit thread local word
-|.qword       | expression [, expression]*     | 128-bit comma separated words
 |.sleb128     | expression                     | signed little endian base 128, DWARF
 |.uleb128     | expression                     | unsigned little endian base 128, DWARF
 |.zero        | integer                        | zero bytes
